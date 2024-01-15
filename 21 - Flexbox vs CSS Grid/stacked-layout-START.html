@@ -19,7 +19,13 @@
   </div>
 
   <style>
-    .stacked {}
+    .stacked {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      /*flexbox doesnt have a grid gap type */
+    }
 
     .stacked>* {
       width: 30%;
